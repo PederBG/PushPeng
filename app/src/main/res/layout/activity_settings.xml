@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.newhdc.pedergb.pushman.SettingsActivity"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/optionsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/Options"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="87dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ToggleButton
+        android:id="@+id/toggleMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:text="ToggleButton"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_below="@+id/optionsName"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        />
+
+    <ToggleButton
+        android:id="@+id/toggleSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toggleMusic"
+        android:layout_alignStart="@+id/toggleMusic"
+        android:layout_below="@+id/toggleMusic"
+        android:layout_marginTop="48dp"
+        android:text="ToggleButton"
+        />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/toggleMusic"
+        android:layout_alignBottom="@+id/toggleMusic"
+        android:layout_toLeftOf="@+id/optionsName"
+        android:layout_toStartOf="@+id/optionsName"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toggleSound"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="11dp"
+        android:text="Sound"
+        android:textSize="24sp" />
+
+</RelativeLayout>

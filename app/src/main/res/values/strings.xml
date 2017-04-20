@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PushPeng</string>
+    <string name="you_won">Level completed!</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="next_level">Start next level</string>
+
+
+    <string name="Start">Start game</string>
+    <string name="LevelSelect">Level Select</string>
+    <string name="Options">Settings</string>
+    <string name="Exit">Quit Game</string>
+
+
+</resources>

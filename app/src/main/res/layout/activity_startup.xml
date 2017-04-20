@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.newhdc.pedergb.pushman.StartupActivity"
+    android:background="@color/colorBackground"
+    >
+
+    <ImageView
+        android:id="@+id/logoFigure"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="76dp"
+        app:srcCompat="@drawable/x"
+        android:layout_marginRight="41dp"
+        android:layout_marginEnd="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/logoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/app_name"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/logoFigure"
+        android:layout_toLeftOf="@+id/logoFigure"
+        android:layout_toStartOf="@+id/logoFigure" />
+
+
+    <Button
+        android:id="@+id/btStart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:text="@string/Start"
+        android:backgroundTint="@color/colorButton"
+        android:layout_below="@+id/logoFigure"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btLevelSelect"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/LevelSelect"
+        android:layout_below="@+id/btStart"
+        android:layout_alignLeft="@+id/btStart"
+        android:layout_alignStart="@+id/btStart"
+        android:backgroundTint="@color/colorButton"
+        />
+
+    <Button
+        android:id="@+id/btOptions"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btLevelSelect"
+        android:layout_alignStart="@+id/btLevelSelect"
+        android:layout_below="@+id/btLevelSelect"
+        android:layout_marginTop="20dp"
+        android:text="@string/Options"
+        android:backgroundTint="@color/colorButton"
+        />
+
+    <Button
+        android:id="@+id/btExit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Exit"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btOptions"
+        android:layout_alignLeft="@+id/btOptions"
+        android:layout_alignStart="@+id/btOptions"
+        android:backgroundTint="@color/colorButton"
+        />
+</RelativeLayout>

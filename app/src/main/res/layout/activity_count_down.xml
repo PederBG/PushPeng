@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.newhdc.pedergb.pushman.CountDownActivity"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/btCountDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="220dp"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="@color/colorButton"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nextLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:fontFamily="casual"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nextLevelTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:fontFamily="casual"
+        android:text="Not yet completed"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/nextLevelTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btCountDown"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="casual"
+        android:textSize="18sp" />
+
+</RelativeLayout>

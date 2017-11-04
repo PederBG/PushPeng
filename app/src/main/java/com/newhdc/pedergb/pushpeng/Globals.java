@@ -1,9 +1,8 @@
-package com.newhdc.pedergb.pushman;
+package com.newhdc.pedergb.pushpeng;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.media.MediaPlayer;
-import android.content.SharedPreferences;
 
 
 /**

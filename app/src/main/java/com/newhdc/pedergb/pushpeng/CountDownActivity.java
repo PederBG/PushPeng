@@ -1,13 +1,10 @@
-package com.newhdc.pedergb.pushman;
+package com.newhdc.pedergb.pushpeng;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 public class CountDownActivity extends AppCompatActivity {
 

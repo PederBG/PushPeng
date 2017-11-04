@@ -1,4 +1,4 @@
-package com.newhdc.pedergb.pushman;
+package com.newhdc.pedergb.pushpeng;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

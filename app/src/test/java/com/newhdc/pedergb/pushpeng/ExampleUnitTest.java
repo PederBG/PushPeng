@@ -1,4 +1,4 @@
-package com.newhdc.pedergb.pushman;
+package com.newhdc.pedergb.pushpeng;
 
 import org.junit.Test;
 

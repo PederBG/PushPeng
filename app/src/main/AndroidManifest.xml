@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.newhdc.pedergb.pushman">
+    package="com.newhdc.pedergb.pushpeng">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@drawable/x"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".StartupActivity"
+        <activity android:name="com.newhdc.pedergb.pushpeng.StartupActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,15 +17,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LevelWonActivity"
+        <activity android:name="com.newhdc.pedergb.pushpeng.LevelWonActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity"
+        <activity android:name="com.newhdc.pedergb.pushpeng.MainActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".LevelSelectActivity"
+        <activity android:name="com.newhdc.pedergb.pushpeng.LevelSelectActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".SettingsActivity"
+        <activity android:name="com.newhdc.pedergb.pushpeng.SettingsActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".CountDownActivity"
+        <activity android:name="com.newhdc.pedergb.pushpeng.CountDownActivity"
             android:screenOrientation="portrait"/>
     </application>
 

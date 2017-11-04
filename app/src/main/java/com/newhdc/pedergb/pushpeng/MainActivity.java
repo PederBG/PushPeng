@@ -1,4 +1,4 @@
-package com.newhdc.pedergb.pushman;
+package com.newhdc.pedergb.pushpeng;
 
 import android.content.Intent;
 import android.content.res.Resources;
@@ -6,26 +6,22 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.ShapeDrawable;
-import android.graphics.drawable.shapes.RectShape;
 import android.media.MediaPlayer;
 import android.os.CountDownTimer;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ProgressBar;
-import android.widget.RelativeLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import static com.newhdc.pedergb.pushman.Globals.mainTheme;
-import static com.newhdc.pedergb.pushman.Globals.stopSound;
-import static com.newhdc.pedergb.pushman.Globals.stopTheme;
+import static com.newhdc.pedergb.pushpeng.Globals.mainTheme;
+import static com.newhdc.pedergb.pushpeng.Globals.stopSound;
+import static com.newhdc.pedergb.pushpeng.Globals.stopTheme;
 
 public class MainActivity extends AppCompatActivity {
 

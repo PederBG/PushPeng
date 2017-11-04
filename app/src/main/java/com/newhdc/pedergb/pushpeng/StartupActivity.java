@@ -1,18 +1,14 @@
-package com.newhdc.pedergb.pushman;
+package com.newhdc.pedergb.pushpeng;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import android.os.Handler;
 
-import static com.newhdc.pedergb.pushman.Globals.getAllowMusic;
-import static com.newhdc.pedergb.pushman.Globals.stopTheme;
+import static com.newhdc.pedergb.pushpeng.Globals.stopTheme;
 
 public class StartupActivity extends AppCompatActivity {
 
